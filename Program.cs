@@ -26,7 +26,7 @@ public static void shapka()
                 int Q;
 
                 
-                } sapka 
+                sapka 
                 Q = Convert.ToInt32(Console.ReadLine());
                 switch (Q)
                 {
