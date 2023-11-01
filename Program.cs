@@ -4,6 +4,16 @@ namespace ConsoleApp1
 {
     class Program
     {
+public static void shapka()
+                {
+                    Console.WriteLine("------------------------------------------------------");
+                    Console.WriteLine("Введите 1 для решения уравнения y=kx");
+                    Console.WriteLine("Введите 2 для решения уравнения y=(k-n)x");
+                    Console.WriteLine("Введите 3 для решения уравнения y=(k-n)x");
+                    Console.WriteLine("Введите 4 для сравнеия чисел AB");
+                    Console.WriteLine("Введите 5 для сравнения выражения (A+B)^2 И (A-B)^2");
+                    Console.WriteLine("Введите 6 для решения факториала n!");
+                    Console.WriteLine("------------------------------------------------------");
 
 
         static void Main()
@@ -15,17 +25,8 @@ namespace ConsoleApp1
             {
                 int Q;
 
-                public static void shapka()
-                {
-                    Console.WriteLine("------------------------------------------------------");
-                    Console.WriteLine("Введите 1 для решения уравнения y=kx");
-                    Console.WriteLine("Введите 2 для решения уравнения y=(k-n)x");
-                    Console.WriteLine("Введите 3 для решения уравнения y=(k-n)x");
-                    Console.WriteLine("Введите 4 для сравнеия чисел AB");
-                    Console.WriteLine("Введите 5 для сравнения выражения (A+B)^2 И (A-B)^2");
-                    Console.WriteLine("Введите 6 для решения факториала n!");
-                    Console.WriteLine("------------------------------------------------------");
-                }
+                
+                } sapka 
                 Q = Convert.ToInt32(Console.ReadLine());
                 switch (Q)
                 {
