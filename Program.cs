@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-public static void shapka()
+       public static void shapka()
                 {
                     Console.WriteLine("------------------------------------------------------");
                     Console.WriteLine("Введите 1 для решения уравнения y=kx");
@@ -26,7 +26,7 @@ public static void shapka()
                 int Q;
 
                 
-                sapka 
+                sapka();
                 Q = Convert.ToInt32(Console.ReadLine());
                 switch (Q)
                 {
