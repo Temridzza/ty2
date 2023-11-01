@@ -14,7 +14,7 @@ namespace ConsoleApp1
                     Console.WriteLine("Введите 5 для сравнения выражения (A+B)^2 И (A-B)^2");
                     Console.WriteLine("Введите 6 для решения факториала n!");
                     Console.WriteLine("------------------------------------------------------");
-
+               } 
 
         static void Main()
         {
